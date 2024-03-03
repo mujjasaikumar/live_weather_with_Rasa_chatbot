@@ -1,6 +1,4 @@
-Certainly! Here's the updated documentation with the installation instructions and git clone command:
 
----
 
 # WeatherBot
 
