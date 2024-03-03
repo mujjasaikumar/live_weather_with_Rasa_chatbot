@@ -1,3 +1,6 @@
+Certainly! Here's the updated documentation with the installation instructions and git clone command:
+
+---
 
 # WeatherBot
 
@@ -52,16 +55,32 @@ The custom action implemented in WeatherBot retrieves live weather forecasts for
 - Rasa Open Source
 - OpenWeatherMap API
 
+- Please note that WeatherBot is compatible with Python versions from 3.6 to 3.8. It will not work with Python versions above 3.8.
+
 ## Getting Started
 
 To get started with WeatherBot, follow these steps:
 
-1. Clone the WeatherBot repository.
-2. Install the required dependencies.
+1. Clone the WeatherBot repository:
+
+   ```bash
+   git clone https://github.com/mujjasaikumar/live_weather_with_Rasa_chatbot.git
+   ```
+
+2. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 3. Train the bot using `rasa train`.
+
 4. Start the bot using `rasa shell` and `rasa run actions`.
+
 5. Interact with the bot by asking about the weather in different cities.
 
 ---
 
-- Saikumar Mujja
+Author: Saikumar Mujja
+
+---
